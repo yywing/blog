@@ -3,10 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": " yarn build_package && hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "build_package": "cd package/xray-script-generation && yarn && yarn build && cp -r build ../../source/xray-script-generation"
   },
   "hexo": {
     "version": "4.2.0"
