@@ -1,3 +1,6 @@
 [submodule "package/xray-script-generation"]
 	path = package/xray-script-generation
 	url = git@github.com:yywing/xray-script-generation.git
+[submodule "themes/yilia"]
+	path = themes/yilia
+	url = https://github.com/litten/hexo-theme-yilia.git
