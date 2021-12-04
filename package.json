@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": " yarn build_package && hexo generate && cp -r ./xray-script-generation ./public/ && cp ./CNAME ./public/ ",
+    "build": " hexo generate && cp -r ./xray-script-generation ./public/ && cp ./CNAME ./public/ ",
+    "build_all": "yarn build_package && hexo generate && cp -r ./xray-script-generation ./public/ && cp ./CNAME ./public/ ",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
