@@ -27,7 +27,6 @@ jobs:
     - name: yarn build
       run: |
         yarn build
-        cp ./CNAME ./public/
     - name: Commit files
       run: |
         cd $PUBLISH_DIR
